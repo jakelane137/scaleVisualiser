@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="800" height="800" viewBox="-200.0 -200.0 400 400">
+     width="1000" height="1000" viewBox="-500.0 -500.0 1000 1000">
 <defs>
 </defs>
-<path d="M0,0 L100,0" stroke="black" />
-<path d="M0,10 L100,10" stroke="black" />
-<path d="M0,20 L100,20" stroke="black" />
-<path d="M0,30 L100,30" stroke="black" />
-<path d="M0,40 L100,40" stroke="black" />
-<path d="M0,50 L100,50" stroke="black" />
+<path d="M0,0 L120,0" stroke="black" />
+<path d="M0,10 L120,10" stroke="black" />
+<path d="M0,20 L120,20" stroke="black" />
+<path d="M0,30 L120,30" stroke="black" />
+<path d="M0,40 L120,40" stroke="black" />
+<path d="M0,50 L120,50" stroke="black" />
+<text x="-10" y="2.5" font-size="10" fill="black">e</text>
+<text x="-10" y="12.5" font-size="10" fill="black">B</text>
+<text x="-10" y="22.5" font-size="10" fill="black">G</text>
+<text x="-10" y="32.5" font-size="10" fill="black">D</text>
+<text x="-10" y="42.5" font-size="10" fill="black">A</text>
+<text x="-10" y="52.5" font-size="10" fill="black">E</text>
+<rect x="-2.5" y="0" width="5" height="50" />
+<rect x="-0.5" y="0" width="1" height="50" />
+<rect x="9.5" y="0" width="1" height="50" />
+<rect x="19.5" y="0" width="1" height="50" />
+<rect x="29.5" y="0" width="1" height="50" />
+<rect x="39.5" y="0" width="1" height="50" />
+<rect x="49.5" y="0" width="1" height="50" />
+<rect x="59.5" y="0" width="1" height="50" />
+<rect x="69.5" y="0" width="1" height="50" />
+<rect x="79.5" y="0" width="1" height="50" />
+<rect x="89.5" y="0" width="1" height="50" />
+<rect x="99.5" y="0" width="1" height="50" />
+<rect x="109.5" y="0" width="1" height="50" />
+<rect x="59.5" y="0" width="1" height="50" />
+<rect x="64.5" y="0" width="1" height="50" />
+<rect x="69.5" y="0" width="1" height="50" />
+<rect x="74.5" y="0" width="1" height="50" />
+<rect x="79.5" y="0" width="1" height="50" />
+<rect x="84.5" y="0" width="1" height="50" />
+<rect x="89.5" y="0" width="1" height="50" />
+<rect x="94.5" y="0" width="1" height="50" />
+<rect x="99.5" y="0" width="1" height="50" />
+<rect x="104.5" y="0" width="1" height="50" />
+<rect x="109.5" y="0" width="1" height="50" />
+<rect x="114.5" y="0" width="1" height="50" />
+<circle cx="-5" cy="2.5" r="1" />
+<circle cx="15.0" cy="2.5" r="1" />
+<circle cx="35.0" cy="2.5" r="1" />
+<circle cx="55.0" cy="2.5" r="1" />
+<circle cx="75.0" cy="2.5" r="1" />
+<circle cx="85.0" cy="2.5" r="1" />
+<circle cx="105.0" cy="2.5" r="1" />
+<circle cx="117.5" cy="2.5" r="1" />
+<circle cx="122.5" cy="2.5" r="1" />
+<circle cx="132.5" cy="2.5" r="1" />
+<circle cx="142.5" cy="2.5" r="1" />
+<circle cx="152.5" cy="2.5" r="1" />
+<circle cx="157.5" cy="2.5" r="1" />
+<circle cx="167.5" cy="2.5" r="1" />
+<circle cx="117.5" cy="2.5" r="1" />
 </svg>
