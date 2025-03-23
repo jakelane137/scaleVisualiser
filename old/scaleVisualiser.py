@@ -32,7 +32,7 @@ A_notes = mod_12(list(map(lambda k : k + AOffset, scale_on_e)))
 E_notes = mod_12(list(map(lambda k : k + EOffset, scale_on_e)))
 
 import drawsvg as draw
-d = draw.Drawing(1000, 1000, origin='center')
+d = draw.Drawing(1000, 1000, origin=(-100,-500))
 
 x0 = 0
 y0 = 0
@@ -46,13 +46,13 @@ Lx = fretGap * max_fret  * (1 - (max_fret + 1)/(2 * 26))
 
 
 nutSize = 5
-nutSpacing = 3
-e_line_label = draw.Text("e", 10, x0 - nutSize * nutSpacing, y0 - 0.25 * h, fill="black")
-B_line_label = draw.Text("B", 10, x0 - nutSize * nutSpacing, y0 - 1.25 * h, fill="black")
-G_line_label = draw.Text("G", 10, x0 - nutSize * nutSpacing, y0 - 2.25 * h, fill="black")
-D_line_label = draw.Text("D", 10, x0 - nutSize * nutSpacing, y0 - 3.25 * h, fill="black")
-A_line_label = draw.Text("A", 10, x0 - nutSize * nutSpacing, y0 - 4.25 * h, fill="black")
-E_line_label = draw.Text("E", 10, x0 - nutSize * nutSpacing, y0 - 5.25 * h, fill="black")
+nutSpacing = 5
+e_line_label = draw.Text("e", 10, x0 - nutSize * nutSpacing, y0 - 0 * h, fill="black")
+B_line_label = draw.Text("B", 10, x0 - nutSize * nutSpacing, y0 - 1 * h, fill="black")
+G_line_label = draw.Text("G", 10, x0 - nutSize * nutSpacing, y0 - 2 * h, fill="black")
+D_line_label = draw.Text("D", 10, x0 - nutSize * nutSpacing, y0 - 3 * h, fill="black")
+A_line_label = draw.Text("A", 10, x0 - nutSize * nutSpacing, y0 - 4 * h, fill="black")
+E_line_label = draw.Text("E", 10, x0 - nutSize * nutSpacing, y0 - 5 * h, fill="black")
 e_line = draw.Line(x0,y0 -  0 * h, x0 + Lx,y0 - 0 * h, stroke='black')
 B_line = draw.Line(x0,y0 -  1 * h , x0 + Lx,y0 -  1 * h, stroke='black')
 G_line = draw.Line(x0,y0 -  2 * h, x0 + Lx,y0 -  2 * h, stroke='black')
@@ -81,10 +81,10 @@ def draw_notes(notes, string_height):
     circles = []
     for n in notes:
         if n==0:
-            circle = draw.Circle(x0 - nutSize * nutSpacing/2 , y0 + 0.25 * h - 0.25 * h , 2, fill='white', stroke_width=1, stroke='black')
+            circle = draw.Circle(x0 - nutSize , y0 + 0 * h , 2, fill='white', stroke_width=1, stroke='black')
         else:
             fretGapAtFret = fretGap/24 * (24 - n)
-            circle = draw.Circle(x0 + n * (1 - (n + 1)/(2 * 26)) * fretGap - fretGapAtFret/2., y0 +  string_height - 0.25 * h, 2)
+            circle = draw.Circle(x0 + n * (1 - (n + 1)/(2 * 26)) * fretGap - fretGapAtFret/2., y0 +  string_height + 0.25 * h, 2)
             #else:
             #    circle = draw.Circle(x0 + 11.5 * fretGap + (n%12 + 0.5) * fretGap/2, 0.25 * h, 1)
         circles += [circle]
